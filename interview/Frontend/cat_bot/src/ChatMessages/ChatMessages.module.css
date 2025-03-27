@@ -1,0 +1,40 @@
+.chatContainer {
+    /* width: 60vb; */
+    height: 50vh;
+    overflow-y: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .messageBubble {
+    padding: 0.75rem 1rem;
+    border-radius: 12px;
+    max-width: 60%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    white-space: pre-wrap;
+  }
+  
+  .userMessage {
+    align-self: flex-end;
+    background-color: #d1e7dd;
+  }
+  
+  .systemMessage {
+    align-self: flex-start;
+    background-color: #f8d7da;
+  }
+  
+  .messageMeta {
+    font-size: 0.8rem;
+    color: #555;
+    margin-bottom: 0.3rem;
+  }
+  
+  .imageMessage {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+}

@@ -1,0 +1,48 @@
+.container {
+  padding: 1rem;
+  max-height: 40vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.roomList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  flex-grow: 1; /* ← takes remaining vertical space */
+  min-height: 0; /* ← ensures it can shrink if needed */
+}
+
+.roomItem {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.roomItem:hover {
+  background-color: #eee;
+}
+
+.selected {
+  background-color: #ddd;
+}
+
+.newChatButton {
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.newChatButton:hover {
+  background-color: #0056b3;
+}

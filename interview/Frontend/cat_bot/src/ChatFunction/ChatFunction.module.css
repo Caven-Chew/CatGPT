@@ -1,0 +1,30 @@
+.chat-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-container > div:first-child {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .chat-list {
+    max-height: 30vh;
+    width: 30%;
+    background-color: #f0f0f0;
+    overflow-y: auto;
+  }
+  
+  .chat-messages {
+    flex: 1;
+    background-color: #ffffff;
+    overflow-y: auto;
+  }
+  
+  .send-message {
+    padding: 10px;
+    background-color: #ddd;
+    border-top: 1px solid #ccc;
+  }
