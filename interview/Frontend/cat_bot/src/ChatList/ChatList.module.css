@@ -1,6 +1,6 @@
 .container {
   padding: 1rem;
-  max-height: 40vh;
+  max-height: 80vh;
   display: flex;
   flex-direction: column;
 }

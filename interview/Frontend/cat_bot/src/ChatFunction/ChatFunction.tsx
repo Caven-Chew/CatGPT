@@ -10,11 +10,13 @@ function App() {
 
     return (
         <div className={Styles["chat-container"]}>
-            <div className={Styles["chat-list"]}>
-                <ChatList setSelectedRoom={setSelectedRoom} />
-            </div>
-            <div className={Styles["chat-messages"]}>
-                <ChatMessages selectedRoom={selectedRoom} toUpdate={toUpdate} setToUpdate={setToUpdate} />
+            <div className={Styles["chatspace"]}>
+                <div className={Styles["chat-list"]}>
+                    <ChatList setSelectedRoom={setSelectedRoom} />
+                </div>
+                <div className={Styles["chat-messages"]}>
+                    <ChatMessages selectedRoom={selectedRoom} toUpdate={toUpdate} setToUpdate={setToUpdate} />
+                </div>
             </div>
             <div className={Styles["send-message"]}>
                 <SendMessage selectedRoom={selectedRoom} setToUpdate={setToUpdate} />

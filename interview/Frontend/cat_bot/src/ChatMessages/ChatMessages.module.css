@@ -1,6 +1,6 @@
 .chatContainer {
     /* width: 60vb; */
-    height: 50vh;
+    height: 80vh;
     overflow-y: auto;
     padding: 1rem;
     display: flex;
